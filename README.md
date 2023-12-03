@@ -70,4 +70,4 @@ sudo nano /etc/apt/sources.list.d/jenkins.list
 deb http://pkg.jenkins.io/debian-stable binary/
 ```
 
-#### still: E: The repository 'http://pkg.jenkins.io/debian-stable binary/ Release' is not signed. although I've changed the contents of the jenkins.list file
+#### Still: E: The repository 'http://pkg.jenkins.io/debian-stable binary/ Release' is not signed. although I've changed the contents of the jenkins.list file
