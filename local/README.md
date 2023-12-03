@@ -25,4 +25,3 @@ Make sure Docker Desktop is installed on Mac. Download it from the official Dock
 
 Grant Docker Permissions to Jenkins:
 Ensure that the Jenkins user (or the user running the Jenkins process) has the necessary permissions to access Docker. One common way to achieve this is to add the user to the docker group.
-
