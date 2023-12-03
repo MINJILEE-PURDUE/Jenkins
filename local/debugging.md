@@ -8,3 +8,30 @@ Confirm that you've mapped the port correctly when running the container. In you
 ```
 docker run -d -p 8888:80 --name hello-world-app my-hello-world-app
 ```
+
+#### Q: Now I got a different error: 404 not found nginx error. Does that mean it cannot find my index.html?
+
+Here is my nginx config
+```
+server {
+    listen 80;
+    server_name localhost;
+
+    location / {
+        root /Users/minji/Desktop/repos/jenkinsTestProject;
+        index index.html;
+    }
+}
+```
+So I changed into:
+```
+server {
+    listen 80;
+    server_name localhost;
+
+    location / {
+        root /usr/share/nginx/html;
+        index index.html;
+    }
+}
+```
